@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <style>
+      button {
+        height: 30px;
+        width: 30px;
+        outline: none;
+        margin: 10px;
+      }
+      #submit{
+        width:10%;
+      }
+      #changeColor{
+        background-color: #000;
+      }
+    </style>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div id="buttonDiv">
+    </div>
+    <div>
+      <p>時計に適用したい色をクリックしてください</p>
+      <p>以下のフォームから任意の色を指定できます。指定が完了したら色をクリックしてください。</p>
+    </div>
+    <button id="changeColor"></button>
+    <input type="text" id="colorCode" maxlength="7" value="#000000">
+  </body>
+  <script src="options.js"></script>
+</html>
